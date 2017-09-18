@@ -1,0 +1,27 @@
+{
+  "icons": {
+    "94": "containers.png"
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_icon": {
+      "16": "containers.svg",
+      "32": "containers.svg"
+    },
+    "default_title": "Open Container Tab",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "cookies",
+    "contextualIdentities"
+  ],
+  "applications": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  },
+  "description": "A replacement for the native container drawer in Firefox.",
+  "manifest_version": 2,
+  "name": "Containers Drawer",
+  "version": "1.0.0"
+}
