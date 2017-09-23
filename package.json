@@ -1,0 +1,19 @@
+{
+  "name": "container-drawer",
+  "version": "1.0.1",
+  "description": "Replaces the native container drawer in Firefox",
+  "scripts": {
+    "build": "cd src && web-ext build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanKingston/container-drawer.git"
+  },
+  "author": "Jonathan Kingston",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/jonathanKingston/container-drawer/issues"
+  },
+  "homepage": "https://github.com/jonathanKingston/container-drawer#readme"
+}
