@@ -31,7 +31,6 @@ class popup {
   }
 
   handleEvent(e) {
-  console.log(e, this, e.currentTarget);
     const cookieStoreId = e.target.dataset.cookieStoreId;
     browser.tabs.create({
       cookieStoreId
